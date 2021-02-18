@@ -20,8 +20,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Rdelease to Github
-      run: echo cd
+    - name: ech to Github
+      run: echo cd    
+    - name: ech to Githukkb
+      run: cd ..
     - name: Zip Folder
       run: zip -r ClusterfactionsResourcePack.zip .
     - name: Release to Github
